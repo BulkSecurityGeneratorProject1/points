@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.jim.points",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.5.0",
+    "applicationType": "monolith",
+    "baseName": "points",
+    "packageName": "com.jim.points",
+    "packageFolder": "com/jim/points",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MWIzMGU3MjRlMzdmZThlMTllMTBkNjdkOTUwYzdjYmIzZWExMGRkNzY4ZGE4ZDliNzRmZjgyMjBlYjU1ZDYyMWRlOTUwYzM0OWYzNjcyNDk0YTE1ZWQ0ODVhNThlOTk4YTliOThiOWZmOWY1Nzc5ZDFhZTBjNGVlYTJiNGY5Nzk=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "ja"
+    ]
+  }
+}
