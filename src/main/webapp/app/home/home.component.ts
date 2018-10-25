@@ -13,6 +13,8 @@ export class HomeComponent implements OnInit {
     account: Account;
     modalRef: NgbModalRef;
 
+    names: String;
+
     constructor(private principal: Principal, private loginModalService: LoginModalService, private eventManager: JhiEventManager) {}
 
     ngOnInit() {
@@ -20,6 +22,7 @@ export class HomeComponent implements OnInit {
             this.account = account;
         });
         this.registerAuthenticationSuccess();
+        this.names = "What's your name?";
     }
 
     registerAuthenticationSuccess() {

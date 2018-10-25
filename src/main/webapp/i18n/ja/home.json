@@ -1,6 +1,6 @@
 {
     "home": {
-        "title": "ようこそ, Java Hipster!",
+        "title": "ようこそ, ホームページ!",
         "subtitle": "ここはトップページです。",
         "logged": {
             "message": "\"{{username}}\"としてログインしています。"
@@ -14,6 +14,7 @@
             "follow": "Twitterの @java_hipster"
         },
         "like": "JHipsterを気に入ったら、是非スターをつけてください。",
-        "github": "GitHub"
+        "github": "GitHub", 
+        "greetings": "TCがこんにちはと言う！"
     }
 }
